@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+
+            app:hintTextColor="@color/black"
+            android:hint="name"
+            app:startIconTint="@color/indigo"
+            android:layout_margin="10dp"
+            android:backgroundTint="#AA9B9B"
+            android:layout_height="wrap_content">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:id="@+id/et_name"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+
+            app:hintTextColor="@color/black"
+            android:hint="Enter Email Address"
+            app:startIconTint="@color/indigo"
+            android:layout_margin="10dp"
+            android:backgroundTint="#AA9B9B"
+            android:layout_height="wrap_content">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:id="@+id/et_email"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+
+            app:hintTextColor="@color/black"
+            android:hint="Enter Contact Number"
+            app:startIconTint="@color/indigo"
+            android:layout_margin="10dp"
+            android:backgroundTint="#AA9B9B"
+            android:layout_height="wrap_content">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:id="@+id/et_contact"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/indigo"
+            android:background="@drawable/bg_material"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:padding="10dp"
+            android:text="Sign Up"
+            android:id="@+id/btn_signup"
+
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>
